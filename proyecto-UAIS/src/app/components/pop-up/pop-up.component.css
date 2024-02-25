@@ -1,0 +1,17 @@
+.login100-form-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.modal-header{
+    background-color: #4484CE;
+    color: white;
+}
+
+.cerrar:hover {
+    background-color: #ff0000b0; 
+    color: #fff;
+  }
+  

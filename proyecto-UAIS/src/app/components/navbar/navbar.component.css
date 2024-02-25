@@ -1,0 +1,44 @@
+.container-fluid{
+    background-color: var(--main-bg-color);
+}
+
+.navbar{
+    padding: 0;
+}
+
+.iconItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    padding: 2px 8px;
+    background-color: #fff;
+}
+
+.nav-link{
+    transition: none;
+}
+
+a{
+    position: relative;
+    padding: 10px;
+    color: var(--main-text-color);
+    margin: 0 15px;
+    font-weight: 600;
+}
+
+a:hover{
+    background-color: #2695F0;
+    border-radius: 15px;
+    color: var(--main-text-color);
+}
+
+g{
+    fill: #fff;
+}

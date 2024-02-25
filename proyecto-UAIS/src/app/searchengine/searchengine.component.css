@@ -1,0 +1,27 @@
+hr {
+   border-color: #2695F0;
+}
+
+#top{
+    margin-left:15%;
+}
+
+.smaller-input {
+   width: 25%;
+}
+
+html,
+body,{
+   height: 100%;
+}
+
+table td,
+table th {
+   text-overflow: ellipsis;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+.card {
+   border-radius: .5rem;
+}

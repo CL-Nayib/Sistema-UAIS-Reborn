@@ -1,0 +1,67 @@
+.parent{
+    height: 40vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.card-area{
+    margin: 0.4rem 0;
+    width: 90%;
+}
+
+.upper-card{
+    color: var(--main-text-color);
+    background-color: #75BAF2;
+    font-weight: 700;
+    font-size: 20;
+}
+
+.card-container{
+    display: flex;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding-right: 25px;
+}
+
+.age-container,
+.hour-container{
+    padding: 3px 0;
+}
+
+.hour-container{
+    padding-left: 20px;
+}
+
+.appointment-container{
+    display: flex;
+}
+
+.day-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-box{
+    border-color: #d5e2e4;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-right: 2px outset;
+    border-bottom: 2px outset;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Slide */
+/* .accordion-item{ 
+    color: var(--main-text-color);
+    background-color: #B6CFF3;
+} */

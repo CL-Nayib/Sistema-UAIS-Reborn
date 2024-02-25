@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert</title>
+</head>
+<body>
+    <app-navbar></app-navbar>
+    <form action="">
+        <div class="body-page">
+            <div class="left-pane">
+                <div class="appointment-container">
+                    <app-medical-appointments></app-medical-appointments>
+                </div>
+                <div class="calendar">
+                    <div class="calendar-container">
+                        <app-calendar></app-calendar>
+                    </div>
+                </div>
+            </div>
+            <div class="right-pane">
+                <div class="form-header">
+                    <h2>Medical preescription form</h2>
+                    <img src="../../assets/forms-images/uady.jpeg" alt="">
+                </div>
+                <div class="form-body">
+                    <div class="phone medical-field">
+                        <mat-form-field hintLabel="Max 10 characters">
+                            <mat-label>Numero de contacto</mat-label>
+                            <input matInput #input maxlength="10" placeholder="Ex. 9931574841">
+                            <mat-hint align="end">{{input.value.length}}/10</mat-hint>
+                          </mat-form-field>
+                    </div>
+                    <div class="name medical-field">
+                        <p class="name-item">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Nombres</mat-label>
+                              <input matInput placeholder="">
+                            </mat-form-field>
+                        </p>
+                        <p class="name-item">
+                            <mat-form-field appearance="fill">
+                              <mat-label>Apellidos</mat-label>
+                              <input matInput placeholder="">
+                            </mat-form-field>
+                        </p>
+                    </div>
+                    <div class="pills medical-field ">
+                        <mat-form-field class="example-full-width" [style.width.px]="400" [style.height.px]="400">
+                            <mat-label>Observaciones</mat-label>
+                            <textarea matInput placeholder="Observaciones"></textarea>
+                          </mat-form-field>
+                    </div>
+                    <div class="submit medical-field">
+                        <button mat-button color="primary">Enviar y finalizar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

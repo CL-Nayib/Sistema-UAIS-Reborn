@@ -1,0 +1,273 @@
+
+
+.flex-container {
+    display: flex;
+    background-color: var(--light-gray);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /*height: 100vh; altura completa*/
+  }
+
+.areas-container {
+    display: flex;
+    background-color: var(--dark-gray);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    /*flex-wrap: wrap; /* wrap: envuelve los elementos en la siguiente linea */
+    width: 95%;
+    border-radius: 10px;
+}
+
+.areas-container > div {
+    background-color: var(--main-gray);
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+.calendar-container{
+    background-color: whitesmoke;
+    height: 300px;
+    width: 30%;
+}
+
+.boton-area{
+    background-color: var(--main-gray);
+    border: none;
+    height: 50px;
+    width: 210px;
+    color: var(--darker-gray);
+}
+
+.boton-area:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.calendar-container{
+    margin: 10px;
+}
+.hours-container{
+    display: grid;
+    height: 300px;
+    width: 70%;
+    margin: 10px;
+    border: 1px solid var(--main-gray);
+    
+}
+
+.hour-item{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hour-container{
+    height: 100%;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-hour{
+    background-color: var(--dark-gray);
+    border: none;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    color: var(--darker-gray);
+}
+
+.boton-hour:hover{
+    background-color: var(--main-bg-color);
+    color: white;
+}
+
+.texto{
+    width: 100%;
+}
+
+.texto h1{
+    color: #4181B1;
+    margin: 15px 35px;
+}
+
+.titulo h1{
+    color: #4181B1;
+}
+
+#sch-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    visibility: hidden;
+}
+
+#form-visibility{
+    display: none;
+}
+
+.doc-name h1{
+    color: #4181B1;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 5px 35px;
+}
+
+.doc-info p{
+    color: var(--darker-gray);
+    font-size: 20px;
+    margin: 5px 35px;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    background-color: white;
+    /*flex-wrap: wrap; /* wrap: envuelve los elementos en la siguiente linea */
+    width: 95%;
+}
+
+.form-container {
+    display: flex;
+    background-color: var(--main-gray);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    /*flex-wrap: wrap; /* wrap: envuelve los elementos en la siguiente linea */
+    margin: 20px;
+    height: fit-content;
+    width: 95%;
+    border-radius: 10px;
+}
+
+.form{
+    width: 95%;
+}
+
+.header-container{
+    height: 200px;
+    width: 95%;
+    margin: 25px 0px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+.doctor-picture{
+    background-color: var(--main-gray);
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+.doctor-pic{
+    height: 140px;
+    width: 140px;
+    border-radius: 100%;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px 18px #888888;
+    overflow: hidden;
+}
+
+
+
+
+
+.doctor-info{
+    background-color: var(--main-gray);
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form-text{
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    color: black;
+}
+
+#submit-button{
+    margin-bottom: 25px;
+}
+
+#textarea-motivo{
+    height: 250px;
+}
+
+/* areas responsive*/
+/*@ media (max-width: 800px) {
+    
+    .flex-areas-container > div {
+        width: 40%;
+        border-radius: 10%;
+        font-size: 15px;
+        text-align: center;
+        flex-grow: 1; /* crece el elemento 
+        padding: 0%;
+        height: 50px;
+    }
+
+    .full-width {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+  } */
+/* areas responsive */
+  
+
+
+/* logo UAIS */
+.UAIS-logo{
+    background-color: #f1f1f2;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    width: 100px; /* Establece el ancho deseado */
+    height: 100px; /* Establece la altura deseada */
+}
+
+.UAIS-logo svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* logo UAIS */
+
+/*modal popUp*/
+#uais-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.modal-header{
+    background-color: #4484CE;
+    color: white;
+}
+
+.cerrar:hover {
+    background-color: #ff0000b0; 
+    color: #fff;
+}
+
+/*modal popUp*/
